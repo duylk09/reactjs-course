@@ -1,12 +1,19 @@
 import Greet from "./components/Greet";
 import Person from "./components/Person";
 import Product from "./components/Product";
+import UserStatus from "./components/UserStatus";
+import Weather from "./components/Weather";
+import { useState } from "react";
 
 const App = () => {
+
+  const [count, setCount] = useState(0);
+
+  
+
   return (
     <>
-      <Person name="Don" age={22}/>
-      <Product name="House" price={2600}/>
+      <UserStatus loggedIn={true} isAdmin={true}/>
     </>
   )
 };

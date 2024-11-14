@@ -1,5 +1,5 @@
 
-const Product = (props) => {
+const Product = (prop) => {
   return (
     <div>
         <h2>Name: {props.name}</h2>
