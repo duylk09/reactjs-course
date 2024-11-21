@@ -4,16 +4,18 @@ import Product from "./components/Product";
 import UserStatus from "./components/UserStatus";
 import Weather from "./components/Weather";
 import { useState } from "react";
+import Counter from "./components/Counter";
+import ToDoList from "./components/ToDoList";
+
 
 const App = () => {
 
-  const [count, setCount] = useState(0);
 
   
 
   return (
     <>
-      <UserStatus loggedIn={true} isAdmin={true}/>
+      <ToDoList/>
     </>
   )
 };
