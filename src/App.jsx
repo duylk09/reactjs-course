@@ -6,6 +6,7 @@ import Weather from "./components/Weather";
 import { useState } from "react";
 import Counter from "./components/Counter";
 import ToDoList from "./components/ToDoList";
+import Profile from "./components/Profile";
 
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
 
   return (
     <>
-      <ToDoList/>
+      <Profile/>
     </>
   )
 };
